@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+button, a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; }
+
+button:focus {
+  outline: none; }
+
+img {
+  display: block; }
+
+input,
+textarea {
+  width: 100%;
+  height: 100%; }
+
+textarea {
+  resize: none; }
+
+li {
+  list-style: none; }
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/LATO-LIGHT.TTF"); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url("../fonts/LATO-MEDIUM.TTF"); }
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/LATO-REGULAR.TTF"); }
+@font-face {
+  font-family: "Lato Semibold";
+  src: url("../fonts/LATO-SEMIBOLD.TTF"); }
+@font-face {
+  font-family: "Lato Black";
+  src: url("../fonts/LATO-BLACK.TTF"); }
+/* Цвет фона всего сайта */
+/*Другие цвета */
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: #494949;
+  font-size: 16px; }
+
+.header-contacts {
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center; }
+
+.header-contacts__phones {
+  justify-content: space-between;
+  align-items: center; }
+
+.header-contacts__email a {
+  color: #2482c5;
+  text-decoration: underline; }
+
+.main-nav {
+  background: #FFF;
+  border-radius: 10px; }
+
+.main-nav__menu {
+  width: 100% !important;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #2482c5;
+  font-size: 18px;
+  font-weight: bold; }
+
+.fa-map-marker-alt {
+  margin-right: 5px; }
+
+.phone-number {
+  font-size: 22px;
+  font-weight: bold;
+  align-items: center; }
+
+.phone-number-img-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FFF;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center; }
+  .phone-number-img-wrap .phone-number-img {
+    width: 24px;
+    height: 23px;
+    object-fit: cover; }
+
+body {
+  background-color: #FFF;
+  color: #79726c;
+  font-family: "Lato Regular", sans serif; }
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.main-banner {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  background: url("../img/main-banner.jpg") center no-repeat;
+  background-size: cover; }
